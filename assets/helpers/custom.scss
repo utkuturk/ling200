@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+
+$primary: #1f58a3 !default;
+$yellow: #804600 !default;
+$h4-font-size: 1.2rem !default;
+$font-size-base: 1.2rem !default;
+
+/*-- scss:rules --*/
+
+code {
+  color: inherit;
+}
+
+.summaryblock {
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 10px;
+  color: #333E50;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #6faef5;
+}
+
+.summaryblock>a {
+  color: #d8dfee;
+}
+
+.quarto-title-meta {
+  display: block !important;
+}
