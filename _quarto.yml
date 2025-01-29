@@ -2,22 +2,59 @@ project:
   type: book
 
 book:
-  title: "ling200"
-  author: "Norah Jones"
-  date: "1/28/2025"
+  title: "LING200 0101 SPRING 2025"
+  author: "Utku Turk"
+  description: "PS helper book and handouts"
+  date: "1/24/2025"
+  cover-image: assets/media/cover.png
+  site-url: https://utkuturk.com/ling200
+  repo-url: https://github.com/utkuturk/ling200
+  repo-actions: [edit, issue]
+  reader-mode: true
+  page-footer:
+    border: true
+    left: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>
+    center: |
+      Handsout of <a href='https://utkuturk.com'>utku turk</a>
+    right: |
+      Email me any of your questions utkuturk @ umd . edu.
+
+  sidebar:
+    search: true
+    logo: assets/media/plume.png
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - part: Intro
+      chapters:
+        - sections/intro/intro.qmd
+    - part: Below Word
+      chapters:
+        - sections/below/phonetics.qmd
+        - sections/below/phonology.qmd
+        - sections/below/morphology.qmd
+    - part: Above Word
+      chapters:
+        - sections/above/syntax.qmd
+        - sections/above/bees.qmd
+        - sections/above/variation.qmd
+    - sections/references.qmd
+    - sections/misc.qmd
 
-bibliography: references.bib
+bibliography: assets/bib/references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: [lumen, assets/helpers/custom.scss]
+    dark: darkly
+    code-link: true
+    highlight-style: a11y
+    fig-align: center
+    code-copy: true
+    link-external-newwindow: true
+    mainfont: "Nunito Sans"
+    monofont: "JetBrains Mono"
+    # include-in-header: "matomo.html"
   pdf:
-    documentclass: scrreprt
-
-
-
+    include-in-header: "assets/helpers/preamble.tex"
+    output-file: "ling200-spr2025"
