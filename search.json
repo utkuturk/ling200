@@ -14,19 +14,19 @@
     "href": "sections/intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "1.1 Spoilers",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "sections/references.html",
-    "href": "sections/references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "objectID": "sections/intro.html#arbitrariness-ateş-fire-in-different-scripts",
+    "href": "sections/intro.html#arbitrariness-ateş-fire-in-different-scripts",
+    "title": "1  Introduction",
+    "section": "1.2 Arbitrariness: “ateş” (fire) in Different Scripts",
+    "text": "1.2 Arbitrariness: “ateş” (fire) in Different Scripts\nIt’s important to note that some of these are representations, as the scripts weren’t always used directly for modern Turkish, but for related languages or to approximate sounds.\nScript | Representation |\nLatin | ateş |\nArabic| آتش |\nCyrillic | атеш |\nRunic | |\nMongolian | ᠢᠨᠪ |\nKey Points:\n\nNo perfect one-to-one: It’s nearly impossible to find one Turkish word with a continuous, unbroken history in all these scripts.\nApproximations: Older scripts, especially Runic, are about representing sounds, not designed for modern Turkish.\nRelated Languages: Chagatai is related, but distinct from Turkish. Mongolic script is for Mongolian, not Turkish.\nFocus on the concept: This illustrates how similar word roots could be represented in different writing systems used across the Turkic and related language families.",
     "crumbs": [
-      "References"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   }
 ]
