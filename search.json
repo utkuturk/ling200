@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "LING200 0101 SPRING 2025",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Preface\nThis online resource complements the in-class discussions and activities we have in our Linguistics 200 0101 section. Think of it as a dynamic guide (not a study guide!), a record of our collaborative explorations into the fascinating world of language.\nHere, you’ll find handouts that recap key concepts, exercises that challenge your assumptions, and prompts that encourage you to think critically about how language works. It’s not a summary of what we’ve done; it is also not a sufficient set of materials for getting ready for an exam.\nThe materials here are designed to be interactive. Don’t just read passively—engage with the questions, discuss with your classmates, and even challenge the ideas presented. The more you interact with these materials, the more you’ll get out of them.\nThis website is also a space for ongoing discussion and collaboration. If you have questions, insights, or even disagreements, share them! Use the Piazza forum to engage with your classmates and me. We can continue our linguistic explorations beyond the classroom walls.\nImportant Links:\n\nELMS Course Page: [https://umd.instructure.com/]\nPiazza Forum: [https://piazza.com/class/m6fjfrepp2d458]\n\nI hope this online resource proves to be a valuable tool in your linguistic journey. Let’s keep exploring the fascinating world of language together!\n\n\n\n\n\n\nDisclaimer\n\n\n\nThe information provided in this online resource is intended for educational purposes only and should not be considered a substitute for attending the in-class discussion or engaging with the course material in its entirety. Please refer to the official course materials and consult with us for any clarification or concerns. If anything here does not agree with the official course materials, assume that course materials are true.",
     "crumbs": [
       "Preface"
     ]
@@ -24,7 +24,7 @@
     "href": "sections/intro.html#spoilers",
     "title": "1  Introduction",
     "section": "",
-    "text": "Signs in a language is fairly arbitrary.",
+    "text": "Signs are arbitrary: There’s no inherent connection between the form of a word and its meaning.\nOur job as linguists is to find patterns: We look beyond the surface of arbitrariness to discover the underlying rules of language.\nGrammaticality and acceptability are not the same: What is considered “grammatical” can vary depending on context, dialect, idiolect, and individual preferences.\nLanguages can have unexpected features: Even seemingly simple grammatical phenomena like the past tense can have hidden complexities.\n“Knowing” a language is complex: It involves more than just following prescriptive rules.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -60,11 +60,11 @@
     ]
   },
   {
-    "objectID": "sections/intro.html#finding-patterns-in-karodza",
-    "href": "sections/intro.html#finding-patterns-in-karodza",
+    "objectID": "sections/intro.html#finding-patterns-in-karodza-hard-puzzle",
+    "href": "sections/intro.html#finding-patterns-in-karodza-hard-puzzle",
     "title": "1  Introduction",
-    "section": "1.5 Finding patterns in Karodza",
-    "text": "1.5 Finding patterns in Karodza\n\n\n\n\n\n\n\nKarodza\nEnglish Translation\n\n\n\n\nr bixir tusa bankaki.\nThe boy kissed the puppy.\n\n\nr meku r timi bixi r kona pe mestatu.\nThe girl sees the young boy in the house.\n\n\nr tusa r kona pe olkaka.\nThe puppy was in the house.\n\n\nr timu meku r kona pe oltatu.\nThe young girl is in the house.\n\n\nte r tusa r kona pe meskakte.\nYou saw the puppy in the house.\n\n\nma r meku mestatma.\nI see the girl.\n\n\nr timi bixi r kona pe olkaki.\nThe young boy was in the house.\n\n\n\nWrite a lexicon listing all free and bound morphemes in the data above and give their English gloss.\n\nbixi\nmeku\ntusa\nkona\ntim-\nkak-\ntat-\nmes-\nol-\nban-\nte\nma\nr\npe\n-a\n-u\n-ma\n-te\n\nCan you posit 1 or 2 rules that you think hold for this language?",
+    "section": "1.5 Finding patterns in Karodza (Hard Puzzle)",
+    "text": "1.5 Finding patterns in Karodza (Hard Puzzle)\n\n\n\n\n\n\n\nKarodza\nEnglish Translation\n\n\n\n\nr bixir tusa bankaki.\nThe boy kissed the puppy.\n\n\nr meku r timi bixi r kona pe mestatu.\nThe girl sees the young boy in the house.\n\n\nr tusa r kona pe olkaka.\nThe puppy was in the house.\n\n\nr timu meku r kona pe oltatu.\nThe young girl is in the house.\n\n\nte r tusa r kona pe meskakte.\nYou saw the puppy in the house.\n\n\nma r meku mestatma.\nI see the girl.\n\n\nr timi bixi r kona pe olkaki.\nThe young boy was in the house.\n\n\n\nWrite a lexicon listing all free and bound morphemes in the data above and give their English gloss.\n\nbixi\nmeku\ntusa\nkona\ntim-\nkak-\ntat-\nmes-\nol-\nban-\nte\nma\nr\npe\n-a\n-u\n-ma\n-te\n\nCan you posit 1 or 2 rules that you think hold for this language?",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
