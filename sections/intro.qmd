@@ -1,0 +1,158 @@
+# Introduction
+
+## Spoilers
+
+- **Signs are arbitrary:** There's no inherent connection between the form of a word and its meaning.
+- **Our job as linguists is to find patterns:** We look beyond the surface of arbitrariness to discover the underlying rules of language.
+- **Grammaticality and acceptability are not the same:** What is considered "grammatical" can vary depending on context, dialect, idiolect, and individual preferences.
+- **Languages can have unexpected features:**  Even seemingly simple grammatical phenomena like the past tense can have hidden complexities.
+- **"Knowing" a language is complex:** It involves more than just following prescriptive rules.
+
+
+
+## Arbitrariness
+
+### "ateş" (fire) in Different Scripts
+
+Turkic people were nomad for almost their entire history of existence. For this reason, they ended up using many different scripts throughout their history and lived with many different cultures.
+
+| Script | Representation  |
+|--------|--------|
+| Latin | ateş |
+| Arabic| &#1570;&#1578;&#1588; |
+| Cyrillic  | &#1072;&#1090;&#1077;&#1096; |
+| Runic  | &#x10C0D;&#x10C2A;&#x10C21;&#x10C41;  |
+| Mongolian | &#x1822;&#x1828;&#x182A; |
+| Judeo-Espanol | אטיש |
+| Greek | ατές |
+| Armenian | աթեշ |
+
+This diversity of scripts illustrates a key principle in linguistics: the **arbitrariness of the sign**.  The connection between a word's form (how it's written or sounds) and its meaning is, for the most part, arbitrary.  There's no inherent reason why the sounds /ateʃ/ should mean "fire" or map to any of to writings above. This is because language is a system of conventions, not a reflection of some inherent connection between sound and meaning.</p>
+
+### ghoti = fish
+Think about the word *ghoti* in English from George Bernard Shaw.  It's a classic example demonstrating the irregularities of English spelling and pronunciation, and how seemingly unrelated and arbitrary letter combinations can produce unexpected sounds.  Let's break it down:
+
+* **gh:** This combination, as in the word *enough*, can be pronounced like the "f" in *fish*.
+
+* **o:** This vowel, as in the word *women*, can be pronounced like the "i" in *fish*.
+
+* **ti:** This combination, as in the word *nation*, can be pronounced like the "sh" in *fish*.
+
+Putting it all together, *ghoti* could theoretically be pronounced "fish."  This isn't a real word, of course, but it perfectly illustrates the arbitrariness of the sign.  There's no logical reason why those specific letters should combine to produce those sounds.  It's simply a quirk of English spelling conventions.
+
+### Assignment 1: Name Pronunciation Challenge
+
+Now that we've seen how tricky spelling and pronunciation can be, let's put it into practice with a fun icebreaker! We'll work in pairs of 2. Introduce yourself to your partner.  Then, *each partner will explain the other's name to me*, including pronunciation, meaning (if known), and any interesting facts about it.
+Just like *ghoti*, try to find some words that you can explain to me how I can learn to produce your names.
+
+## From Arbitrariness to Patterns: The Past Tense
+
+Our job as linguists is to look beyond the surface of this arbitrariness and find the underlying patterns and rules that govern language. Just like you did with your names, we look past the different spellings and pronunciations to find the common threads that connect them. Let's explore this with something we all use (and I sometimes mess up!) every day: the past tense in English.
+
+How is the past tense pronounced in each of the following words? Try to ignore the spelling and really think about how you pronounce it in each case.
+
+a. walk<u>ed</u> \_\_\_\_\_\_
+b. crash<u>ed</u> \_\_\_\_\_\_
+c. itch<u>ed</u> \_\_\_\_\_\_
+d. allow<u>ed</u> \_\_\_\_\_\_
+e. mugg<u>ed</u> \_\_\_\_\_\_
+f. own<u>ed</u> \_\_\_\_\_\_
+g. need<u>ed</u> \_\_\_\_\_\_
+h. wait<u>ed</u> \_\_\_\_\_\_
+i. add<u>ed</u> \_\_\_\_\_\_
+
+What would be the past tense of the following verbs?
+
+a. smick
+b. frimm
+c. spling
+d. pling
+e. thrim
+
+Now, consider the past of these verbs that change in more unpredictable ways:
+
+a. sing \_\_\_\_\_\_
+b. swim \_\_\_\_\_\_
+c. sleep \_\_\_\_\_\_
+d. keep \_\_\_\_\_\_
+
+
+How come do you know how to pronounce these words that don’t exist and thus that you have not heard the past tense forms of before? Give me hypotheses!
+
+<!-- Imitation -->
+
+<!-- Formal Teaching -->
+
+<!-- Rule formation -->
+
+<!-- Innate rules -->
+
+
+## Grammaticality vs. Acceptability: What Does it Mean to "Know" a Language?
+
+Now that we've explored the patterns of past tense formation, let's delve into some deeper questions about language itself. We often talk about sentences being "grammatical" or "ungrammatical," but what does that actually mean? And how does it relate to what we consider "acceptable" or "normal" language use?
+
+Let's consider these examples and discuss their grammaticality and acceptability:
+
+| Sentence  | Grammatical? | Does everyone agree? |
+|-------------------|--------------|----------------------|
+| I went to the store yesterday. | | |
+| Yesterday I to the store went. | | |
+| Me and my friend went to the mall. | | |
+| The nanny slept the baby.  | | |
+| Colorless green ideas sleep furiously.| | |
+| I ain't going there. | | |
+| After lunch John was tired and so he laid down for a while. | | |
+| Speaker A: Is Sue there?  Speaker B: This is she. | | |
+| Speaker A: Where’s Sue? Speaker B: That’s she over there. | | |
+| I’m pretty sure that Mary voted for myself. | | |
+
+Discuss your answers with a neighbor or in your small group. Does everyone in your group agree? Pay close attention to where there are disagreements. Why do you think people have different intuitions about these sentences?
+
+**Exercise** Give me a sentence you or someone else in your life used that might create some disagreements in the group.
+
+
+
+How about following sentences? Does grammaticality mean it is acceptable? Does acceptability mean it is grammatical?
+
+a. The gang by the bikes were huddled.
+b. John and Mary met in the backyard, Mike did too.
+c. Who did Mary sing and dance with?
+d. More people have been to China than I have.
+e. The cheese the rat the cat chased ate perished.
+
+## Finding patterns in Karodza (Hard Puzzle)
+
+| Karodza | English Translation |
+|---|---|
+| r bixir tusa bankaki. | The boy kissed the puppy. |
+| r meku r timi bixi r kona pe mestatu. | The girl sees the young boy in the house. |
+| r tusa r kona pe olkaka. | The puppy was in the house. |
+| r timu meku r kona pe oltatu. | The young girl is in the house. |
+| te r tusa r kona pe meskakte. | You saw the puppy in the house. |
+| ma r meku mestatma. | I see the girl. |
+| r timi bixi r kona pe olkaki. | The young boy was in the house. |
+
+
+Write a lexicon listing all free and bound morphemes in the data above and give their English gloss.
+
+a. bixi
+b. meku
+b. tusa
+b. kona
+b. tim-
+b. kak-
+b. tat-
+b. mes-
+b. ol-
+b. ban-
+b. te
+b. ma
+b. r
+b. pe
+b. -a
+b. -u
+b. -ma
+b. -te
+
+Can you posit 1 or 2 rules that you think hold for this language?

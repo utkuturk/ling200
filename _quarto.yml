@@ -5,16 +5,18 @@ book:
   title: "LING200 0101 SPRING 2025"
   author: "Utku Turk"
   description: "PS helper book and handouts"
-  date: "1/24/2025"
+  date: today
+  date-format: long
   cover-image: assets/media/cover.png
   site-url: https://utkuturk.com/ling200
   repo-url: https://github.com/utkuturk/ling200
   repo-actions: [edit, issue]
   reader-mode: true
+  # downloads: [pdf]
   page-footer:
     border: true
     left: |
-      This book was built with <a href="https://quarto.org/">Quarto</a>
+      <a href="https://umd.instructure.com/">ELMS</a> | <a href="https://piazza.com/class/m6fjfrepp2d458">Piazza</a>
     center: |
       Handsout of <a href='https://utkuturk.com'>utku turk</a>
     right: |
@@ -25,36 +27,40 @@ book:
     logo: assets/media/plume.png
   chapters:
     - index.qmd
-    - part: Intro
-      chapters:
-        - sections/intro/intro.qmd
-    - part: Below Word
-      chapters:
-        - sections/below/phonetics.qmd
-        - sections/below/phonology.qmd
-        - sections/below/morphology.qmd
-    - part: Above Word
-      chapters:
-        - sections/above/syntax.qmd
-        - sections/above/bees.qmd
-        - sections/above/variation.qmd
-    - sections/references.qmd
-    - sections/misc.qmd
+    - sections/intro.qmd
+    # # - part: Below Word
+    # #   chapters:
+    # #     - sections/below/phonetics.qmd
+    # #     - sections/below/phonology.qmd
+    # #     - sections/below/morphology.qmd
+    # # - part: Above Word
+    # #   chapters:
+    # #     - sections/above/syntax.qmd
+    # #     - sections/above/bees.qmd
+    # #     - sections/above/variation.qmd
+    # - sections/references.qmd
+    # - sections/misc.qmd
 
 bibliography: assets/bib/references.bib
 
 format:
   html:
-    theme: [lumen, assets/helpers/custom.scss]
-    dark: darkly
-    code-link: true
+    theme:
+      light: lumen
+      dark: darkly
     highlight-style: a11y
     fig-align: center
+    code-link: true
     code-copy: true
     link-external-newwindow: true
+    citation-location: margin
+    css:
+      - assets/helpers/custom.css
+      - assets/helpers/custom.scss
+    lightbox: true
+    html-table-processing: none
     mainfont: "Nunito Sans"
     monofont: "JetBrains Mono"
-    # include-in-header: "matomo.html"
-  pdf:
-    include-in-header: "assets/helpers/preamble.tex"
-    output-file: "ling200-spr2025"
+  # pdf:
+  #   include-in-header: "assets/helpers/preamble.tex"
+  #   keep-tex: true
