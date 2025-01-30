@@ -7,7 +7,7 @@ book:
   description: "PS helper book and handouts"
   date: today
   date-format: long
-  cover-image: assets/media/cover.png
+  # cover-image: assets/media/cover.png
   site-url: https://utkuturk.com/ling200
   repo-url: https://github.com/utkuturk/ling200
   repo-actions: [edit, issue]
@@ -24,7 +24,7 @@ book:
 
   sidebar:
     search: true
-    logo: assets/media/plume.png
+    # logo: assets/media/plume.png
   chapters:
     - index.qmd
     - sections/intro.qmd

@@ -45,9 +45,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -103,10 +100,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./assets/media/plume.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">LING200 0101 SPRING 2025</a> 
         <div class="sidebar-tools-main tools-wide">
@@ -192,7 +186,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="assets/media/cover.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/media/cover.png" title="LING200 0101 SPRING 2025" class="quarto-cover-image img-fluid"></a></p>
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
 <p>This online resource complements the in-class discussions and activities we have in our Linguistics 200 0101 section. Think of it as a dynamic guide (not a study guide!), a record of our collaborative explorations into the fascinating world of language.</p>
@@ -201,8 +194,8 @@ ul.task-list li input[type="checkbox"] {
 <p>This website is also a space for ongoing discussion and collaboration. If you have questions, insights, or even disagreements, share them! Use the Piazza forum to engage with your classmates and me. We can continue our linguistic explorations beyond the classroom walls.</p>
 <p><strong>Important Links:</strong></p>
 <ul>
-<li>ELMS Course Page: [https://umd.instructure.com/]</li>
-<li>Piazza Forum: [https://piazza.com/class/m6fjfrepp2d458]</li>
+<li>(ELMS)[https://umd.instructure.com/]</li>
+<li>(Piazza Forum)[https://piazza.com/class/m6fjfrepp2d458]</li>
 </ul>
 <p>I hope this online resource proves to be a valuable tool in your linguistic journey. Let’s keep exploring the fascinating world of language together!</p>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -815,38 +808,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"descPosition":"bottom","openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 
