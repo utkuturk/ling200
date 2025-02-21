@@ -162,7 +162,18 @@
     "href": "sections/below/phonology.html#spanish-data",
     "title": "4  Phonology I",
     "section": "4.3 Spanish Data",
-    "text": "4.3 Spanish Data\n\n\n\nPhonemic Representation\nPhonetic Representation\nGloss\n\n\n\n\n/dɾama/\n[dɾama]\n“drama”\n\n\n/doloɾ/\n[doloɾ]\n“pain”\n\n\n/anda/\n[anda]\n“scram”\n\n\n/falda/\n[falda]\n“skirt”\n\n\n/kada/\n[kaða]\n“each”\n\n\n/lado/\n[laðo]\n“side”\n\n\n/komida/\n[komiða]\n“food”\n\n\n/odio/\n[oðio]\n“hate”\n\n\n\nIn the data above, the first column represents the way that Spanish speakers store these words in their mental lexicon. The second column shows the way these words are actually pronounced. Note the relationship between /d/, [d] and [ð]. The phones [d] and [ð] are allophones of the phoneme /d/, as illustrated in the diagram below.\n\n\n\n\n\n\n\nG\n\n\n\n/d/\n/d/\n\n\n\n[d]\n[d]\n\n\n\n/d/-&gt;[d]\n\n\n\n\n[ð]\n[ð]\n\n\n\n/d/-&gt;[ð]",
+    "text": "4.3 Spanish Data\n\n\n\nPhonemic Representation\nPhonetic Representation\nGloss\n\n\n\n\n/dɾama/\n[dɾama]\n“drama”\n\n\n/doloɾ/\n[doloɾ]\n“pain”\n\n\n/anda/\n[anda]\n“scram”\n\n\n/falda/\n[falda]\n“skirt”\n\n\n/kada/\n[kaða]\n“each”\n\n\n/lado/\n[laðo]\n“side”\n\n\n/komida/\n[komiða]\n“food”\n\n\n/odio/\n[oðio]\n“hate”\n\n\n\nIn the data above, the first column represents the way that Spanish speakers store these words in their mental lexicon. The second column shows the way these words are actually pronounced. Note the relationship between /d/, [d] and [ð]. The phones [d] and [ð] are allophones of the phoneme /d/, as illustrated in the diagram below.\n\n\n\n\n\n\n\nG\n\n\n\n/d/\n/d/\n\n\n\n[d]\n[d]\n\n\n\n/d/-&gt;[d]\n\n\n\n\n[ð]\n[ð]\n\n\n\n/d/-&gt;[ð]\n\n\n\n\n\n\n\n\n\n\nMake a chart showing the environments for the phones [d] and [ð], i.e., the environments adjacent to the sound when it is pronounced [d] and when it is pronounced [ð]. (The chart should be in the format given in class with just the neighboring sounds rather than the whole word.)\nState a generalization about when [ð] occurs versus when [d] occurs in Spanish. Make sure to state the generalization in a way that illustrates that the two sounds are in complementary distribution. That is, your statements should be of the form: “[X] only occurs ____ and [Y] never occurs ____” where X/Y are [d] or [ð] and you fill in the blank with the relevant environment.\nNow write a rule that accounts for when the phoneme /d/ is pronounced [ð]. The rule can be stated in words or symbols.",
+    "crumbs": [
+      "Below Word",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Phonology I</span>"
+    ]
+  },
+  {
+    "objectID": "sections/below/phonology.html#german-data",
+    "href": "sections/below/phonology.html#german-data",
+    "title": "4  Phonology I",
+    "section": "4.4 German Data",
+    "text": "4.4 German Data\n\n\n\nGerman\nGloss\nIPA (Original)\nIPA (Pronunciation)\n\n\n\n\nBild\n‘picture’\n/bild/\n[bɪlt]\n\n\nblieb\n‘remained’\n/bliːb/\n[bliːp]\n\n\nWeg\n‘way’\n/veːk/\n[veːk]\n\n\nfremd\n‘foreign’\n/fremd/\n[fremt]\n\n\ngelb\n‘yellow’\n/ɡɛlp/\n[ɡɛlp]\n\n\nZug\n‘train’\n/tsuːɡ/\n[tsuːk]\n\n\nVogel\n‘bird’\n/foːɡl̩/\n[foːɡl̩]\n\n\nBaum\n‘tree’\n/baʊm/\n[baʊm]\n\n\nschnell\n‘fast’\n/ʃnɛl/\n[ʃnɛl]",
     "crumbs": [
       "Below Word",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Phonology I</span>"
