@@ -73,9 +73,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -314,13 +311,37 @@ window.Quarto = {
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">graph TD
-    A[\/d/\] --&gt; B("[d]");
-    A[\/d/\] --&gt; C("[ð]");
-    style A fill:#ccf,stroke:#888,stroke-width:2px
-    style B fill:#ccf,stroke:#888,stroke-width:2px
-    style C fill:#ccf,stroke:#888,stroke-width:2px
-</pre>
+<svg width="672" height="480" viewbox="0.00 0.00 134.00 117.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 113.6)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-113.6 130,-113.6 130,4 -4,4"></polygon>
+<!-- /d/ -->
+<g id="node1" class="node">
+<title>/d/</title>
+<text text-anchor="middle" x="63" y="-84" font-family="Arial" font-size="24.00">/d/</text>
+</g>
+<!-- [d] -->
+<g id="node2" class="node">
+<title>[d]</title>
+<text text-anchor="middle" x="27" y="-11.2" font-family="Arial" font-size="24.00">[d]</text>
+</g>
+<!-- /d/&#45;&gt;[d] -->
+<g id="edge1" class="edge">
+<title>/d/-&gt;[d]</title>
+<path fill="none" stroke="black" d="M54.1,-72.7C48.6,-61.89 41.57,-48.06 36.05,-37.19"></path>
+</g>
+<!-- [ð] -->
+<g id="node3" class="node">
+<title>[ð]</title>
+<text text-anchor="middle" x="99" y="-11.2" font-family="Arial" font-size="24.00">[ð]</text>
+</g>
+<!-- /d/&#45;&gt;[ð] -->
+<g id="edge2" class="edge">
+<title>/d/-&gt;[ð]</title>
+<path fill="none" stroke="black" d="M71.9,-72.7C77.4,-61.89 84.43,-48.06 89.95,-37.19"></path>
+</g>
+</g>
+</svg>
 </div>
 <p></p></figure><p></p>
 </div>
@@ -923,7 +944,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
