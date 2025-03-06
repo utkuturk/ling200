@@ -200,5 +200,82 @@
       "Below Word",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Phonology I</span>"
     ]
+  },
+  {
+    "objectID": "sections/below/morphology.html",
+    "href": "sections/below/morphology.html",
+    "title": "5  Morphology",
+    "section": "",
+    "text": "5.1 Simple Exercises",
+    "crumbs": [
+      "Below Word",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Morphology</span>"
+    ]
+  },
+  {
+    "objectID": "sections/below/morphology.html#simple-exercises",
+    "href": "sections/below/morphology.html#simple-exercises",
+    "title": "5  Morphology",
+    "section": "",
+    "text": "5.1.1 Hungarian\n\n\n\nWord\nMeaning\n\nWord\nMeaning\n\n\n\n\n[hɔz]\n‘house’\n\n[bor]\n‘wine’\n\n\n[ɛjhɔz]\n‘a house’\n\n[ɛjbor]\n‘a wine’\n\n\n[hɔzɔ]\n‘his house’\n\n[borɔ]\n‘his wine’\n\n\n\n   \n\nWhat morphemes represents ‘house’, ‘wine’, ‘a/an’, and ‘his/he’?\n\n   \n   \n\n\n5.1.2 Kanuri\n\n\n\nWord\nMeaning\n\nWord\nMeaning\n\n\n\n\n[karite]\n‘excellent’\n\n[nəmkarite]\n‘excellence’\n\n\n[kura]\n‘big’\n\n[nəmkura]\n‘bigness’\n\n\n[gana]\n‘small’\n\n[nəmgana]\n‘smallness’\n\n\n[dibi]\n‘bad’\n\n[nəmdibi]\n‘badness’\n\n\n\n   \n   \n\n\n5.1.3 Tarjumbo (Old Kanuri)\n\n\n\nWord\nMeaning\n\nWord\nMeaning\n\n\n\n\n[karite]\n‘excellent’\n\n[nəŋkarite]\n‘excellence’\n\n\n[kura]\n‘big’\n\n[nəŋkura]\n‘bigness’\n\n\n[gana]\n‘small’\n\n[nəŋgana]\n‘smallness’\n\n\n[dibi]\n‘bad’\n\n[nəndibi]\n‘badness’\n\n\n[biti]\n‘blue’\n\n[nəmbiti]\n‘blueness’",
+    "crumbs": [
+      "Below Word",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Morphology</span>"
+    ]
+  },
+  {
+    "objectID": "sections/below/morphology.html#trees",
+    "href": "sections/below/morphology.html#trees",
+    "title": "5  Morphology",
+    "section": "5.2 Trees",
+    "text": "5.2 Trees\nAlgorithm\n\nIdentify possible morphemes\nIdentify their productivity\nCheck predictions\nImplement trees\n\nPurify\n\nPure-ify\nCan we add -ify to other Adjectives?\nDiversify. Ok, -ify takes adjective makes verbs.\nAdj + -ify = Verb\n\n\nUnreadable\n   \n   \nReconstruction\n   \n   \nDehumidifer",
+    "crumbs": [
+      "Below Word",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Morphology</span>"
+    ]
+  },
+  {
+    "objectID": "sections/below/morphology.html#wrong-tree",
+    "href": "sections/below/morphology.html#wrong-tree",
+    "title": "5  Morphology",
+    "section": "5.3 Wrong Tree",
+    "text": "5.3 Wrong Tree\nIdentify what is wrong with tree below that represents playfully",
+    "crumbs": [
+      "Below Word",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Morphology</span>"
+    ]
+  },
+  {
+    "objectID": "sections/below/morphology.html#choose-the-correct-tree",
+    "href": "sections/below/morphology.html#choose-the-correct-tree",
+    "title": "5  Morphology",
+    "section": "5.4 Choose the correct tree",
+    "text": "5.4 Choose the correct tree\nGiven the alternative below, which one reflects the internal structure of the word disappeared better?",
+    "crumbs": [
+      "Below Word",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Morphology</span>"
+    ]
+  },
+  {
+    "objectID": "sections/below/morphology.html#unlabelled-tree",
+    "href": "sections/below/morphology.html#unlabelled-tree",
+    "title": "5  Morphology",
+    "section": "5.5 Unlabelled Tree",
+    "text": "5.5 Unlabelled Tree\nThe following word-formation tree diagram is unlabelled. The diagram indicates only the order of attachment of morphemes to form a word, not the type of morphemes.\n\nAmong the words below, whose word formation order matches the tree diagram:\nnationalites, apples, ballpoint pen, unbearable, rain-shelter, reasonable, renewal, disallows",
+    "crumbs": [
+      "Below Word",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Morphology</span>"
+    ]
+  },
+  {
+    "objectID": "sections/below/morphology.html#more-morphological-decomposition",
+    "href": "sections/below/morphology.html#more-morphological-decomposition",
+    "title": "5  Morphology",
+    "section": "5.6 More Morphological Decomposition",
+    "text": "5.6 More Morphological Decomposition\n\n5.6.1 Turkish\nThere is no Turkish morpheme that means “the” or “a(n)”.\n   \n\n\n\n\n\n\n\n\n\n\nMeaning\nTurkish\n\nMeaning\nTurkish\n\n\n\n\n[deniz]\n‘(an) ocean’\n\n[elim]\n‘my hand’\n\n\n[denize]\n‘to (an) ocean’\n\n[eller]\n‘hands’\n\n\n[denizin]\n‘of (an) ocean’\n\n[diʃler]\n‘teeth’\n\n\n[eve]\n‘to (a) house’\n\n[diʃimizin]\n‘of our tooth’\n\n\n[evden]\n‘from (a) house’\n\n[diʃlerimizin]\n‘of our teeth’\n\n\n[evdʒikden]\n‘from (a) little house’\n\n[denizlerimizde]\n‘in our oceans’\n\n\n[eldʒike]\n‘to (a) little hand’\n\n[elde]\n‘in (a) hand’\n\n\n[denizdʒikde]\n‘to (a) little ocean’\n\n[evdʒiklerimizde]\n‘in our little houses’\n\n\n\n   \n\nWhat are the Turkish morphemes for the following meanings?\n\n   \n   \n\n\n\nmeaning\nTurkish\n\nmeaning\nTurkish\n\n\n\n\n(an) ocean\n____\n\n(a) house\n____\n\n\n(a) hand\n____\n\n(a) tooth\n____\n\n\nmy\n____\n\nour\n____\n\n\nplural\n____\n\nlittle\n____\n\n\nto\n____\n\nfrom\n____\n\n\nin\n____\n\nof\n____\n\n\n\n   \n\nWhat is the order of morphemes in a Turkish word?\n\n   \n   \n\nHow would one say “of our little hands” in Turkish?\n\n   \n   \n\nGive the English Translation for [diʃdʒiklerden].\n\n   \n   \n\n\n5.6.2 Turkish Again\nWe have already seen some data from Turkish. Examine this additional data from Turkish, and answer the questions that follow. You should not need any other data beyond what is given here to solve the problem. - [y] is a high front tense rounded vowel. - There is a single affix in all of the second column words which is locational; i.e., the same morpheme can mean ‘at’, ‘in’, ‘on’.\n   \n\n\n\nMeaning\nTurkish\n\nMeaning\nTurkish\n\n\n\n\n[ofis]\n‘office’\n\n[ofiste]\n‘at (the) office’\n\n\n[ofisler]\n‘offices’\n\n[ofislerde]\n‘at (the) offices’\n\n\n[ev]\n‘house’\n\n[evde]\n‘at (the) house’\n\n\n[evler]\n‘houses’\n\n[evlerde]\n‘at (the) houses’\n\n\n[syt]\n‘milk’\n\n[sytte]\n‘in (the) milk’\n\n\n[bahtʃe]\n‘garden’\n\n[bahtʃede]\n‘in (the) garden’\n\n\n[tʃitʃek]\n‘flower’\n\n[tʃitʃekte]\n‘on (the) flower’\n\n\n[tʃitʃekler]\n‘flowers’\n\n[tʃitʃeklerde]\n‘on (the) flowers’\n\n\n\n\nWhat are the two forms (pronunciations) of the Turkish morpheme that means ‘in/on/at’? (Note that that the meaning is a general locational one that we call ‘locative’.)\n\n   \n    in/on/at     ____     ____\n   \n\nDo the two forms that you gave in (a) come from a single underlying morpheme? (b) or are these two separate morphemes? (Explain why you think so.)\n\n   \n   \n\nMake a generalization about where each allomorph appears in terms of phonological environment.\n\n   \n   \n\nIf [paket] means ‘package,’ give the Turkish words for the following:\n\n    ‘in (the) package’     ________\n    ‘in (the) packages’     ________",
+    "crumbs": [
+      "Below Word",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Morphology</span>"
+    ]
   }
 ]
