@@ -277,5 +277,60 @@
       "Below Word",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Morphology</span>"
     ]
+  },
+  {
+    "objectID": "sections/above/syntax.html",
+    "href": "sections/above/syntax.html",
+    "title": "6  Syntax",
+    "section": "",
+    "text": "6.1 Recall Constituency Tests",
+    "crumbs": [
+      "Above Word",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Syntax</span>"
+    ]
+  },
+  {
+    "objectID": "sections/above/syntax.html#recall-constituency-tests",
+    "href": "sections/above/syntax.html#recall-constituency-tests",
+    "title": "6  Syntax",
+    "section": "",
+    "text": "Constituent is a group of words that forms a group that can be targeted by syntactic things…\nEvery word is a constituent itself.\nPassing one test is enough to say something is a constituent\nFailing all three is required for non-constituency\nConstituency is relevant for a given sentence\nMeaning has to be the same in these tests!\nThe tests tell us how to carve up the sentence and create syntactic trees.\n\n\nMovement: Clefting\nQ-A stand alone\nSubstituion by a pro-form",
+    "crumbs": [
+      "Above Word",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Syntax</span>"
+    ]
+  },
+  {
+    "objectID": "sections/above/syntax.html#constituency-exercise",
+    "href": "sections/above/syntax.html#constituency-exercise",
+    "title": "6  Syntax",
+    "section": "6.2 Constituency Exercise",
+    "text": "6.2 Constituency Exercise\n\nChoose the sentence(s) in which the bolded sequences form constituents.\n\nShe saw my cousin’s cat on the back of a truck at the junction of Berwyn Rd and Park Av.\nShe saw my cousin’s cat on the back of a truck at the junction of Berwyn Rd and Park Av.\nShe saw my cousin’s cat on the back of a truck at the junction of Berwyn Rd and Park Av.\nShe saw my cousin’s cat on the back of a truck at the junction of Berwyn Rd and Park Av.\nShe saw my cousin’s cat on the back of a truck at the junction of Berwyn Rd and Park Av.\nShe saw my cousin’s cat on the back of a truck at the junction of Berwyn Rd and Park Av.",
+    "crumbs": [
+      "Above Word",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Syntax</span>"
+    ]
+  },
+  {
+    "objectID": "sections/above/syntax.html#constituency-and-syntax-head",
+    "href": "sections/above/syntax.html#constituency-and-syntax-head",
+    "title": "6  Syntax",
+    "section": "6.3 Constituency and Syntax Head",
+    "text": "6.3 Constituency and Syntax Head\nSyntactic phrases are named after their head constituents. Decide whether the following sequences form a constituent and then propose a label for them:\n\nQueue up right here for your free gifts.\nSam sent me a birthday card.\nLuckily, the floods caused no casualties.\nWe found termites inside the walls and under the floor.\nMilk contains calcium.\nThe man in the blue suit is our boss.\nI know someone who can help you.\nThe water was surprisingly cold.\nBee stings hurt.\nShe looked very pale but composed.",
+    "crumbs": [
+      "Above Word",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Syntax</span>"
+    ]
+  },
+  {
+    "objectID": "sections/above/syntax.html#structure",
+    "href": "sections/above/syntax.html#structure",
+    "title": "6  Syntax",
+    "section": "6.4 Structure?",
+    "text": "6.4 Structure?\nGiven the structures below think of two example sentences.",
+    "crumbs": [
+      "Above Word",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Syntax</span>"
+    ]
   }
 ]
