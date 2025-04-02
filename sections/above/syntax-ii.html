@@ -8,7 +8,7 @@
 
 <meta name="description" content="PS helper book and handouts">
 
-<title>6&nbsp; Syntax – LING200 0101 SPRING 2025</title>
+<title>7&nbsp; Syntax II – LING200 0101 SPRING 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../sections/above/syntax-ii.html" rel="next">
-<link href="../../sections/below/morphology.html" rel="prev">
+<link href="../../sections/above/syntax.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -44,9 +43,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -89,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sections/above/syntax.html">Above Word</a></li><li class="breadcrumb-item"><a href="../../sections/above/syntax.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Syntax</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sections/above/syntax.html">Above Word</a></li><li class="breadcrumb-item"><a href="../../sections/above/syntax-ii.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Syntax II</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -181,13 +177,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sections/above/syntax.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../sections/above/syntax.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Syntax</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sections/above/syntax-ii.html" class="sidebar-item-text sidebar-link">
+  <a href="../../sections/above/syntax-ii.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Syntax II</span></span></a>
   </div>
 </li>
@@ -203,19 +199,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#recall-constituency-tests" id="toc-recall-constituency-tests" class="nav-link active" data-scroll-target="#recall-constituency-tests"><span class="header-section-number">6.1</span> Recall Constituency Tests</a></li>
-  <li><a href="#constituency-exercise" id="toc-constituency-exercise" class="nav-link" data-scroll-target="#constituency-exercise"><span class="header-section-number">6.2</span> Constituency Exercise</a></li>
-  <li><a href="#constituency-and-syntax-head" id="toc-constituency-and-syntax-head" class="nav-link" data-scroll-target="#constituency-and-syntax-head"><span class="header-section-number">6.3</span> Constituency and Syntax Head</a></li>
-  <li><a href="#structure" id="toc-structure" class="nav-link" data-scroll-target="#structure"><span class="header-section-number">6.4</span> Structure?</a></li>
+  <li><a href="#a-english-phrase-structure" id="toc-a-english-phrase-structure" class="nav-link active" data-scroll-target="#a-english-phrase-structure"><span class="header-section-number">7.1</span> A: English Phrase Structure</a>
+  <ul class="collapse">
+  <li><a href="#phrase-structure-rules" id="toc-phrase-structure-rules" class="nav-link" data-scroll-target="#phrase-structure-rules"><span class="header-section-number">7.1.1</span> 1. Phrase Structure Rules</a></li>
+  <li><a href="#tree-structures" id="toc-tree-structures" class="nav-link" data-scroll-target="#tree-structures"><span class="header-section-number">7.1.2</span> 2. Tree Structures</a></li>
+  <li><a href="#new-trees" id="toc-new-trees" class="nav-link" data-scroll-target="#new-trees"><span class="header-section-number">7.1.3</span> 3. New Trees</a></li>
+  <li><a href="#recursivity" id="toc-recursivity" class="nav-link" data-scroll-target="#recursivity"><span class="header-section-number">7.1.4</span> 4. Recursivity</a></li>
+  <li><a href="#applying-recursion" id="toc-applying-recursion" class="nav-link" data-scroll-target="#applying-recursion"><span class="header-section-number">7.1.5</span> 5. Applying Recursion</a></li>
+  <li><a href="#ambiguity" id="toc-ambiguity" class="nav-link" data-scroll-target="#ambiguity"><span class="header-section-number">7.1.6</span> 6. Ambiguity</a></li>
+  </ul></li>
+  <li><a href="#b-can-our-grammar-explain-the-sentences" id="toc-b-can-our-grammar-explain-the-sentences" class="nav-link" data-scroll-target="#b-can-our-grammar-explain-the-sentences"><span class="header-section-number">7.2</span> B: Can our grammar explain the sentences?</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/utkuturk/ling200/edit/main/sections/above/syntax.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/utkuturk/ling200/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/utkuturk/ling200/edit/main/sections/above/syntax-ii.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/utkuturk/ling200/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sections/above/syntax.html">Above Word</a></li><li class="breadcrumb-item"><a href="../../sections/above/syntax.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Syntax</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sections/above/syntax.html">Above Word</a></li><li class="breadcrumb-item"><a href="../../sections/above/syntax-ii.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Syntax II</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Syntax</span></h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Syntax II</span></h1>
 </div>
 
 
@@ -232,58 +234,68 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="recall-constituency-tests" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="recall-constituency-tests"><span class="header-section-number">6.1</span> Recall Constituency Tests</h2>
-<ul>
-<li>Constituent is a group of words that forms a group that can be targeted by syntactic things…</li>
-<li>Every word is a constituent itself.</li>
-<li>Passing one test is enough to say something is a constituent</li>
-<li>Failing all three is required for non-constituency</li>
-<li>Constituency is relevant for a given sentence</li>
-<li>Meaning has to be the same in these tests!</li>
-<li>The tests tell us how to carve up the sentence and create syntactic trees.</li>
-</ul>
+<section id="a-english-phrase-structure" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="a-english-phrase-structure"><span class="header-section-number">7.1</span> A: English Phrase Structure</h2>
+<section id="phrase-structure-rules" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="phrase-structure-rules"><span class="header-section-number">7.1.1</span> 1. Phrase Structure Rules</h3>
+<p>Below is a set of phrase structure rules for English:</p>
+<pre><code>S  → NP (aux) VP
+NP → (Det) (Adj)+ N (PP)+
+VP → V (NP) (PP)
+VP → VP PP
+VP → V (S′)
+S′ → comp S
+PP → P NP</code></pre>
+</section>
+<section id="tree-structures" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="tree-structures"><span class="header-section-number">7.1.2</span> 2. Tree Structures</h3>
+<p>Draw tree structures for the following sentences. Be sure to use <strong>constituency tests</strong> (e.g., substitution, movement, clefting) to justify your choices.</p>
 <ol type="1">
-<li>Movement: Clefting</li>
-<li>Q-A stand alone</li>
-<li>Substituion by a <em>pro-form</em></li>
+<li>The cat was sleeping. <br><br><br></li>
+<li>Jill met Bill at the airport. <br><br><br></li>
+<li>Bill said that Jill met Gil. <br><br><br></li>
+<li>They bought the house on the hill near the farm. <br><br><br></li>
 </ol>
 </section>
-<section id="constituency-exercise" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="constituency-exercise"><span class="header-section-number">6.2</span> Constituency Exercise</h2>
+<section id="new-trees" class="level3" data-number="7.1.3">
+<h3 data-number="7.1.3" class="anchored" data-anchor-id="new-trees"><span class="header-section-number">7.1.3</span> 3. New Trees</h3>
+<p>Draw two new tree structures (different from any of the sentences above), following the set of phrase structure rules that you gave above. After drawing the tree, fill in words that fit the categories.</p>
+<p><br><br><br><br></p>
+</section>
+<section id="recursivity" class="level3" data-number="7.1.4">
+<h3 data-number="7.1.4" class="anchored" data-anchor-id="recursivity"><span class="header-section-number">7.1.4</span> 4. Recursivity</h3>
+<p>Are the phrase structure rules about recursive? Explain. (They should be recursive in at least one way.)</p>
+<p><br><br><br><br></p>
+</section>
+<section id="applying-recursion" class="level3" data-number="7.1.5">
+<h3 data-number="7.1.5" class="anchored" data-anchor-id="applying-recursion"><span class="header-section-number">7.1.5</span> 5. Applying Recursion</h3>
+<p>Take one of the sentences above that uses recursion and construct a longer sentence making use of the same kind of recursion. (Make sure to draw the tree and fill in the words.)</p>
+<p><br><br><br><br></p>
+</section>
+<section id="ambiguity" class="level3" data-number="7.1.6">
+<h3 data-number="7.1.6" class="anchored" data-anchor-id="ambiguity"><span class="header-section-number">7.1.6</span> 6. Ambiguity</h3>
+<p>The following sentences are ambiguous. Draw two trees for each one and say what meaning corresponds to each tree.</p>
 <ol type="1">
-<li>Choose the sentence(s) in which the bolded sequences form constituents.
-<ol type="i">
-<li>She saw my cousin’s <strong>cat on the back of a truck</strong> at the junction of Berwyn Rd and Park Av.</li>
-<li>She saw my cousin’s cat on the <strong>back of a truck</strong> at the junction of Berwyn Rd and Park Av.</li>
-<li>She saw my cousin’s cat on the back of a truck <strong>at the junction of Berwyn Rd and Park Av</strong>.</li>
-<li><strong>She</strong> saw my cousin’s cat on the back of a truck at the junction of Berwyn Rd and Park Av.</li>
-<li><strong>She saw</strong> my cousin’s cat on the back of a truck at the junction of Berwyn Rd and Park Av.</li>
-<li><strong>She saw my cousin’s cat</strong> on the back of a truck at the junction of Berwyn Rd and Park Av.</li>
-</ol></li>
+<li>Kim pushed the guy from the airplane. <br><br><br><br></li>
+<li>Jo painted the picture in the kitchen. <br><br><br><br></li>
 </ol>
 </section>
-<section id="constituency-and-syntax-head" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="constituency-and-syntax-head"><span class="header-section-number">6.3</span> Constituency and Syntax Head</h2>
-<p>Syntactic phrases are named after their head constituents. Decide whether the following sequences form a constituent and then propose a label for them:</p>
-<ol type="1">
-<li>Queue up <strong>right here</strong> for your free gifts.</li>
-<li>Sam <strong>sent me a birthday card</strong>.</li>
-<li><strong>Luckily</strong>, the floods caused no casualties.</li>
-<li>We found termites <strong>inside the walls and under the floor</strong>.</li>
-<li><strong>Milk</strong> contains calcium.</li>
-<li><strong>The man in the blue suit</strong> is our boss.</li>
-<li>I know <strong>someone who can help you</strong>.</li>
-<li>The water was <strong>surprisingly cold</strong>.</li>
-<li>Bee stings <strong>hurt</strong>.</li>
-<li>She looked <strong>very pale but composed</strong>.</li>
-</ol>
 </section>
-<section id="structure" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="structure"><span class="header-section-number">6.4</span> Structure?</h2>
-<p>Given the structures below think of two example sentences.</p>
-<p><a href="../../assets/media/syn1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../../assets/media/syn1.jpg" class="img-fluid"></a></p>
-<p><a href="../../assets/media/syn1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="../../assets/media/syn1.jpg" class="img-fluid"></a></p>
+<section id="b-can-our-grammar-explain-the-sentences" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="b-can-our-grammar-explain-the-sentences"><span class="header-section-number">7.2</span> B: Can our grammar explain the sentences?</h2>
+<p>Imagine that our grammar for some reason only contains the following rules.</p>
+<pre><code>S  → NP VP
+NP → (Adj)+ N
+VP → V (Adv)+</code></pre>
+<p>Choose the sentence(s) that this grammar <strong>can</strong> generates and try to write a rule or rules for each sentence that we cannot generate.</p>
+<ol type="1">
+<li>Happy old people are very lucky. <br><br><br><br></li>
+<li>Tropical blooms grow quickly. <br><br><br><br></li>
+<li>Regular joggers lose weight sensibly. <br><br><br><br></li>
+<li>Fake jewellery breaks too easily. <br><br><br><br></li>
+<li>Small red centipedes bite really painfully. <br><br><br><br></li>
+<li>Most goldfish eat noisily.</li>
+</ol>
 
 
 </section>
@@ -860,14 +872,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../sections/below/morphology.html" class="pagination-link" aria-label="Morphology">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Morphology</span></span>
+      <a href="../../sections/above/syntax.html" class="pagination-link" aria-label="Syntax">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Syntax</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../sections/above/syntax-ii.html" class="pagination-link" aria-label="Syntax II">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Syntax II</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -878,44 +887,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p>Handsout of <a href="https://utkuturk.com">utku turk</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/utkuturk/ling200/edit/main/sections/above/syntax.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/utkuturk/ling200/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/utkuturk/ling200/edit/main/sections/above/syntax-ii.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/utkuturk/ling200/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Email me any of your questions utkuturk @ umd . edu.</p>
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

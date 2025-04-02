@@ -332,5 +332,38 @@
       "Above Word",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Syntax</span>"
     ]
+  },
+  {
+    "objectID": "sections/above/syntax-ii.html",
+    "href": "sections/above/syntax-ii.html",
+    "title": "7  Syntax II",
+    "section": "",
+    "text": "7.1 A: English Phrase Structure",
+    "crumbs": [
+      "Above Word",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Syntax II</span>"
+    ]
+  },
+  {
+    "objectID": "sections/above/syntax-ii.html#a-english-phrase-structure",
+    "href": "sections/above/syntax-ii.html#a-english-phrase-structure",
+    "title": "7  Syntax II",
+    "section": "",
+    "text": "7.1.1 1. Phrase Structure Rules\nBelow is a set of phrase structure rules for English:\nS  → NP (aux) VP\nNP → (Det) (Adj)+ N (PP)+\nVP → V (NP) (PP)\nVP → VP PP\nVP → V (S′)\nS′ → comp S\nPP → P NP\n\n\n7.1.2 2. Tree Structures\nDraw tree structures for the following sentences. Be sure to use constituency tests (e.g., substitution, movement, clefting) to justify your choices.\n\nThe cat was sleeping. \nJill met Bill at the airport. \nBill said that Jill met Gil. \nThey bought the house on the hill near the farm. \n\n\n\n7.1.3 3. New Trees\nDraw two new tree structures (different from any of the sentences above), following the set of phrase structure rules that you gave above. After drawing the tree, fill in words that fit the categories.\n\n\n\n7.1.4 4. Recursivity\nAre the phrase structure rules about recursive? Explain. (They should be recursive in at least one way.)\n\n\n\n7.1.5 5. Applying Recursion\nTake one of the sentences above that uses recursion and construct a longer sentence making use of the same kind of recursion. (Make sure to draw the tree and fill in the words.)\n\n\n\n7.1.6 6. Ambiguity\nThe following sentences are ambiguous. Draw two trees for each one and say what meaning corresponds to each tree.\n\nKim pushed the guy from the airplane. \nJo painted the picture in the kitchen.",
+    "crumbs": [
+      "Above Word",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Syntax II</span>"
+    ]
+  },
+  {
+    "objectID": "sections/above/syntax-ii.html#b-can-our-grammar-explain-the-sentences",
+    "href": "sections/above/syntax-ii.html#b-can-our-grammar-explain-the-sentences",
+    "title": "7  Syntax II",
+    "section": "7.2 B: Can our grammar explain the sentences?",
+    "text": "7.2 B: Can our grammar explain the sentences?\nImagine that our grammar for some reason only contains the following rules.\nS  → NP VP\nNP → (Adj)+ N\nVP → V (Adv)+\nChoose the sentence(s) that this grammar can generates and try to write a rule or rules for each sentence that we cannot generate.\n\nHappy old people are very lucky. \nTropical blooms grow quickly. \nRegular joggers lose weight sensibly. \nFake jewellery breaks too easily. \nSmall red centipedes bite really painfully. \nMost goldfish eat noisily.",
+    "crumbs": [
+      "Above Word",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Syntax II</span>"
+    ]
   }
 ]
