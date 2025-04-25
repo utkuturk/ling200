@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.55">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
 <meta name="description" content="PS helper book and handouts">
-<title>3&nbsp; Phonetics II – LING200 0101 SPRING 2025</title>
+
+<title>9&nbsp; Variation – LING200 0101 SPRING 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,29 +23,27 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../sections/below/phonology.html" rel="next">
-<link href="../../sections/below/phonetics-i.html" rel="prev">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../sections/above/transformations/index.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -68,28 +69,67 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script><link rel="stylesheet" href="../../assets/helpers/custom.css">
-<link rel="stylesheet" href="../../assets/helpers/custom.scss">
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../assets/helpers/custom.css">
+<link rel="stylesheet" href="../assets/helpers/custom.scss">
 </head>
+
 <body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sections/below/phonetics-i.html">Below Word</a></li><li class="breadcrumb-item"><a href="../../sections/below/phonetics-ii.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Phonetics II</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/variation.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Variation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../../">LING200 0101 SPRING 2025</a> 
+      <a href="../">LING200 0101 SPRING 2025</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/utkuturk/ling200" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -108,15 +148,15 @@ ul.task-list li input[type="checkbox"] {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-<li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sections/intro.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
@@ -128,33 +168,33 @@ ul.task-list li input[type="checkbox"] {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sections/below/phonetics-i.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/below/phonetics-i.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Phonetics I</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sections/below/phonetics-ii.html" class="sidebar-item-text sidebar-link active">
+  <a href="../sections/below/phonetics-ii.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Phonetics II</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sections/below/phonology.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/below/phonology.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Phonology I</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sections/below/morphology.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/below/morphology.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Morphology</span></span></a>
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
@@ -163,45 +203,59 @@ ul.task-list li input[type="checkbox"] {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sections/above/syntax.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/above/syntax.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Syntax</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sections/above/syntax-ii.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/above/syntax-ii.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Syntax II</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sections/above/transformations/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/above/transformations/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Transformations</span></span></a>
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sections/variation.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/variation.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Variation</span></span></a>
   </div>
 </li>
     </ul>
-</div>
-</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#take-home-messages" id="toc-take-home-messages" class="nav-link active" data-scroll-target="#take-home-messages"><span class="header-section-number">10</span> Take home messages</a></li>
+  <li><a href="#american-data" id="toc-american-data" class="nav-link" data-scroll-target="#american-data"><span class="header-section-number">11</span> American Data</a></li>
+  <li><a href="#more-american-data" id="toc-more-american-data" class="nav-link" data-scroll-target="#more-american-data"><span class="header-section-number">12</span> More American Data</a>
+  <ul class="collapse">
+  <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question"><span class="header-section-number">12.1</span> Question</a></li>
+  </ul></li>
+  <li><a href="#turkish-data" id="toc-turkish-data" class="nav-link" data-scroll-target="#turkish-data"><span class="header-section-number">13</span> Turkish Data</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/utkuturk/ling200/edit/main/sections/variation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/utkuturk/ling200/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sections/below/phonetics-i.html">Below Word</a></li><li class="breadcrumb-item"><a href="../../sections/below/phonetics-ii.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Phonetics II</span></a></li></ol></nav><div class="quarto-title">
-<h1 class="title">
-<span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Phonetics II</span>
-</h1>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Variation</span></h1>
 </div>
 
 
@@ -215,295 +269,375 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header><p><strong>Question 1:</strong> Transcribe these words.</p>
-<div class="columns">
-<div class="column">
-<ol type="1">
-<li>confess</li>
-<li>Cairo</li>
-<li>ridge</li>
-<li>mother</li>
-</ol>
-</div><div class="column">
-<ol start="5" type="1">
-<li>union</li>
-<li>calves</li>
-<li>sugar</li>
-<li>circus</li>
-</ol>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Answer
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div class="columns">
-<div class="column">
-<ol type="1">
-<li>tba</li>
-<li>tba</li>
-<li>tba</li>
-<li>tba</li>
-</ol>
-</div><div class="column">
-<ol start="5" type="1">
-<li>tba</li>
-<li>tba</li>
-<li>tba</li>
-<li>tba</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-</div>
-<p><strong>Question 2</strong>: Provide the phonetic symbols for the given phonetic descriptions:</p>
-<ol type="1">
-<li>nasal (voiced) bilabial stop</li>
-<li>voiceless labiodental fricative</li>
-<li>voiced alveolar stop</li>
-<li>voiced palatal fricative</li>
-<li>voiced labiovelar glide</li>
-</ol>
-<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Answer
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li>nasal (voiced) bilabial stop</li>
-<li>voiceless labiodental fricative</li>
-<li>voiced alveolar stop</li>
-<li>voiced palatal fricative</li>
-<li>voiced labiovelar glide</li>
-</ol>
-</div>
-</div>
-</div>
-<p><strong>Question 3</strong>: Write the phonetic symbol for each drawing below them.</p>
+</header>
+
+
+<section id="take-home-messages" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Take home messages</h1>
+<ul>
+<li><strong>Methodology</strong>: Learn how to draw regional dialect boundaries and recognize the methodological challenges involved.</li>
+<li><strong>Descriptive linguistics</strong>: Understand that every dialect is rule-governed and learn to make generalizations about them.</li>
+<li><strong>Dialect features</strong>: Analyze dialects using features from different linguistic levels — lexical, phonological, morphological, and syntactic.</li>
+<li><strong>Analytical tools</strong>: Practice phonetic transcription and generalization-making using class-taught methods.</li>
+<li><strong>Dialect diversity</strong>: Gain exposure to dialects different from your own.</li>
+</ul>
+</section>
+<section id="american-data" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> American Data</h1>
+<p>Please call Stella. Ask her to bring these things with her from the store: Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob. We also need a small plastic snake and a big toy frog for the kids. She can scoop these things into three red bags, and we will go meet her Wednesday at the train station.</p>
+<p>We’ll listen to four speech samples, provided in phonetic transcription below. For each speaker, (1) guess where they are from based on their speech, and (2) identify at least one distinctive phonological feature of their speech.</p>
+</section>
+<section id="more-american-data" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> More American Data</h1>
+<p>Some American English speakers pronounce [ɪ] in words like <em>pen</em> and <em>then</em> (where other speakers have [ɛ]). However, they still use [ɛ] in words like <em>pet</em> and <em>bell</em>. The table below presents phonemic and phonetic forms from this dialect:</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
+<thead>
+<tr class="header">
+<th>Meaning</th>
+<th>Phonemic Representation</th>
+<th>Phonetic Representation</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">
-<img src="../../assets/media/sag1.jpg" width="200"><br><br><br>
-</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag10.jpg" width="200"><br><br><br>
-</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag11.jpg" width="200"><br><br><br>
-</td>
+<td>friend</td>
+<td>/fɹɛnd/</td>
+<td>[fɹɪnd]</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">
-<img src="../../assets/media/sag2.jpg" width="200"><br><br><br>
-</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag3.jpg" width="200"><br><br><br>
-</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag4.jpg" width="200"><br><br><br>
-</td>
+<td>then</td>
+<td>/ðɛn/</td>
+<td>[ðɪn]</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">
-<img src="../../assets/media/sag5.jpg" width="200"><br><br><br>
-</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag6.jpg" width="200"><br><br><br>
-</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag7.jpg" width="200"><br><br><br>
-</td>
+<td>Kenny</td>
+<td>/kɛni/</td>
+<td>[kɪni]</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">
-<img src="../../assets/media/sag8.jpg" width="200"><br><br><br>
-</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag9.jpg" width="200"><br><br><br>
-</td>
-<td style="text-align: left;"></td>
+<td>pen</td>
+<td>/pɛn/</td>
+<td>[pɪn]</td>
+</tr>
+<tr class="odd">
+<td>Bengals</td>
+<td>/bɛŋɡəlz/</td>
+<td>[bɪŋɡəlz]</td>
+</tr>
+<tr class="even">
+<td>gem</td>
+<td>/dʒɛm/</td>
+<td>[dʒɪm]</td>
+</tr>
+<tr class="odd">
+<td>lengthen</td>
+<td>/lɛŋθən/</td>
+<td>[lɪŋθən]</td>
+</tr>
+<tr class="even">
+<td>empty</td>
+<td>/ɛmpti/</td>
+<td>[ɪmpti]</td>
+</tr>
+<tr class="odd">
+<td>pet</td>
+<td>/pɛt/</td>
+<td>[pɛt]</td>
+</tr>
+<tr class="even">
+<td>bell</td>
+<td>/bɛl/</td>
+<td>[bɛl]</td>
+</tr>
+<tr class="odd">
+<td>best</td>
+<td>/bɛst/</td>
+<td>[bɛst]</td>
+</tr>
+<tr class="even">
+<td>peg</td>
+<td>/pɛɡ/</td>
+<td>[pɛɡ]</td>
+</tr>
+<tr class="odd">
+<td>tech</td>
+<td>/tɛk/</td>
+<td>[tɛk]</td>
+</tr>
+<tr class="even">
+<td>freshen</td>
+<td>/fɹɛʃən/</td>
+<td>[fɹɛʃən]</td>
+</tr>
+<tr class="odd">
+<td>rebel</td>
+<td>/ɹɛbəl/</td>
+<td>[ɹɛbəl]</td>
+</tr>
+<tr class="even">
+<td>several</td>
+<td>/sɛvɹəl/</td>
+<td>[sɛvɹəl]</td>
 </tr>
 </tbody>
 </table>
-<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Answer
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
+<section id="question" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="question"><span class="header-section-number">12.1</span> Question</h2>
+<p><strong>What is the rule for these speakers that determines when /ɛ/ is pronounced as [ɪ] and when it remains [ɛ]?</strong></p>
+</section>
+</section>
+<section id="turkish-data" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> Turkish Data</h1>
+<p>Examine the following data from Karaova Village: Karaova Turkish. You are also given Standard Modern Turkish (SMT). This variety is in general very similar to SMT; they have mostly same phonology rules, phonemic inventory and stress placement on words etc.</p>
+<ol type="1">
+<li>Yet, not everything is identical between the two varieties. Look at the data in SET A below. What is the difference you observe between SMT and the Turkish variety of Karaova (KT)? How can we capture the difference observed in KT by providing rules? <strong>If there are symbols that you do not know, you should check the charts you are given!</strong></li>
+</ol>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
+<thead>
+<tr class="header">
+<th>SET A</th>
+<th>KT</th>
+<th>SMT</th>
+<th>Meaning</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">
-<img src="../../assets/media/sag1.jpg" width="200"><br><br> Vector 1A</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag10.jpg" width="200"><br><br> Vector 1B</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag11.jpg" width="200"><br><br> Vector 1C</td>
+<td>(10)</td>
+<td>[ba.dʒ<strong>ɯ</strong>.’nak<span class="math inline">\(^h\)</span>]</td>
+<td>[ba.dʒa.nak<span class="math inline">\(^h\)</span>]</td>
+<td>‘husband of sister-in-law’</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">
-<img src="../../assets/media/sag2.jpg" width="200"><br><br> Vector 2A</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag3.jpg" width="200"><br><br> Vector 2B</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag4.jpg" width="200"><br><br> Vector 2C</td>
+<td>(11)</td>
+<td>[ba.dʒa.n<strong>ɯ</strong>k.’t<span class="math inline">\(^h\)</span>an]</td>
+<td>[ba.dʒa.nak.’t<span class="math inline">\(^h\)</span>an]</td>
+<td>‘from h. of sister-in-law’</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">
-<img src="../../assets/media/sag5.jpg" width="200"><br><br> Vector 3A</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag6.jpg" width="200"><br><br> Vector 3B</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag7.jpg" width="200"><br><br> Vector 3C</td>
+<td>(12)</td>
+<td>[a.ɾ<strong>ɯ</strong>.’ba]</td>
+<td>[a.ɾa.’ba]</td>
+<td>‘car’</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">
-<img src="../../assets/media/sag8.jpg" width="200"><br><br> Vector 4A</td>
-<td style="text-align: left;">
-<img src="../../assets/media/sag9.jpg" width="200"><br><br> Vector 4B</td>
-<td style="text-align: left;"></td>
+<td>(13)</td>
+<td>[a.ɾa.b<strong>ɯ</strong>.’dan]</td>
+<td>[a.ɾa.ba.’dan]</td>
+<td>‘from the car’</td>
+</tr>
+<tr class="odd">
+<td>(14)</td>
+<td>[k<span class="math inline">\(^h\)</span>a.ɾ<strong>ɯ</strong>.’ɫa]</td>
+<td>[k<span class="math inline">\(^h\)</span>a.ɾa.’ɫa]</td>
+<td>‘scribble!’</td>
+</tr>
+<tr class="even">
+<td>(15)</td>
+<td>[k<span class="math inline">\(^h\)</span>a.ɾa.ɫ<strong>ɯ</strong>.’dɯ]</td>
+<td>[k<span class="math inline">\(^h\)</span>a.ɾa.ɫa.’dɯ]</td>
+<td>‘(s/he) scribbled’</td>
+</tr>
+<tr class="odd">
+<td>(16)</td>
+<td>[k<span class="math inline">\(^h\)</span>a.ɾ<strong>ɯ</strong>.’ɫa.ma]</td>
+<td>[k<span class="math inline">\(^h\)</span>a.ɾa. ’ɫa.ma]</td>
+<td>‘don’t scribble!’</td>
+</tr>
+<tr class="even">
+<td>(17)</td>
+<td>[be.ɾ<strong>i</strong>.’c<span class="math inline">\(^h\)</span>et<span class="math inline">\(^h\)</span>]</td>
+<td>[be.ɾe. ’c<span class="math inline">\(^h\)</span>et<span class="math inline">\(^h\)</span>]</td>
+<td>‘abundance’</td>
+</tr>
+<tr class="odd">
+<td>(18)</td>
+<td>[be.ɾe.c<span class="math inline">\(^h\)</span><strong>i</strong>t.’siz]</td>
+<td>[be.ɾe.c<span class="math inline">\(^h\)</span>et. ’siz]</td>
+<td>‘without abundance’</td>
+</tr>
+<tr class="even">
+<td>(19)</td>
+<td>[me.s<strong>i</strong>.’lɛ]</td>
+<td>[me.se.’lɛ]</td>
+<td>‘problem’</td>
+</tr>
+<tr class="odd">
+<td>(20)</td>
+<td>[me.se.l<strong>i</strong>.’dæn]</td>
+<td>[me.se.le.’dæn]</td>
+<td>‘from the problem’</td>
+</tr>
+<tr class="even">
+<td>(21)</td>
+<td>[sil.c<span class="math inline">\(^h\)</span><strong>i</strong>. ’lɛ]</td>
+<td>[sil.c<span class="math inline">\(^h\)</span>e. ’le]</td>
+<td>‘shake off!’</td>
+</tr>
+<tr class="odd">
+<td>(22)</td>
+<td>[sil.c<span class="math inline">\(^h\)</span>e.l<strong>i</strong>.’di]</td>
+<td>[sil.c<span class="math inline">\(^h\)</span>e.le.’di]</td>
+<td>‘(s/he) shook off’</td>
+</tr>
+<tr class="even">
+<td>(23)</td>
+<td>[sil.c<span class="math inline">\(^h\)</span><strong>i</strong>.’le.me]</td>
+<td>[sil.c<span class="math inline">\(^h\)</span>e.’le.mɛ]</td>
+<td>‘don’t shake off!’</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-<p><strong>Question 4</strong>: Provide the phonetic symbols for vowels whose phonetic descriptions are given:</p>
-<ol type="1">
-<li>mid central unrounded</li>
-<li>high back rounded lax</li>
-<li>low front unrounded</li>
-<li>high front unrounded tense</li>
-<li>low back rounded tense</li>
+<ol start="2" type="1">
+<li>Now look at <strong>ONLY</strong> the data in SET B. In the light of these data, do you need to revise the rule(s) you provided above? If your answer is no, motivate why your answer is negative referring to specific examples in SET B. If your answer is yes, revise the rules accordingly.</li>
 </ol>
-<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Answer
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li>mid central unrounded</li>
-<li>high back rounded lax</li>
-<li>low front unrounded</li>
-<li>high front unrounded tense</li>
-<li>low back rounded tense</li>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>SET B</th>
+<th>KT</th>
+<th>SMT</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(24)</td>
+<td>[a.’jaɾ̥]</td>
+<td>[a.’jaɾ̥]</td>
+<td>‘setting’</td>
+</tr>
+<tr class="even">
+<td>(25)</td>
+<td>[a.j<strong>ɯ</strong>.’ɾɯ]</td>
+<td>[a.ja.’ɾɯ]</td>
+<td>‘its setting’</td>
+</tr>
+<tr class="odd">
+<td>(26)</td>
+<td>[p<span class="math inline">\(^h\)</span>a.’ɾa]</td>
+<td>[p<span class="math inline">\(^h\)</span>a.’ɾa]</td>
+<td>‘money’</td>
+</tr>
+<tr class="even">
+<td>(27)</td>
+<td>[p<span class="math inline">\(^h\)</span>a.ɾ<strong>ɯ</strong>.’ɫɯ]</td>
+<td>[p<span class="math inline">\(^h\)</span>a.ɾa.’ɫɯ]</td>
+<td>‘rich’</td>
+</tr>
+<tr class="odd">
+<td>(28)</td>
+<td>[t<span class="math inline">\(^h\)</span>e.’p<span class="math inline">\(^h\)</span>e]</td>
+<td>[t<span class="math inline">\(^h\)</span>e.’p<span class="math inline">\(^h\)</span>e]</td>
+<td>‘hill’</td>
+</tr>
+<tr class="even">
+<td>(29)</td>
+<td>[t<span class="math inline">\(^h\)</span>e.p<span class="math inline">\(^h\)</span><strong>i</strong>.’dæn]</td>
+<td>[t<span class="math inline">\(^h\)</span>e.p<span class="math inline">\(^h\)</span>e.’dæn]</td>
+<td>‘from the hill’</td>
+</tr>
+<tr class="odd">
+<td>(30)</td>
+<td>[c<span class="math inline">\(^h\)</span>e.’mær]</td>
+<td>[c<span class="math inline">\(^h\)</span>e.’mær]</td>
+<td>‘belt’</td>
+</tr>
+<tr class="even">
+<td>(31)</td>
+<td>[c<span class="math inline">\(^h\)</span>e.m<strong>i</strong>r.’dʒi]</td>
+<td>[c<span class="math inline">\(^h\)</span>e.mer.’dʒi]</td>
+<td>‘belt-maker’</td>
+</tr>
+</tbody>
+</table>
+<ol start="3" type="1">
+<li>Now look at <strong>ONLY</strong> the data in SET C. In the light of these data, do you need to revise the rules you provided above? If your answer is no, motivate why your answer is negative referring to specific examples in SET C. If your answer is yes, revise the rules accordingly.</li>
 </ol>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled" title="English Vowels">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-English Vowels
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="../../assets/media/vowels.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="The vowels (monophthongs) of English"><img src="../../assets/media/vowels.jpg" class="img-fluid figure-img" alt="The vowels (monophthongs) of English"></a></p>
-<figcaption>The vowels (monophthongs) of English</figcaption></figure>
-</div>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled" title="English Diphthongs Vowels">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-English Diphthongs Vowels
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="../../assets/media/dvowels.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Two-part articulations of the diphthongs of English (the arrows indicate the transitions)"><img src="../../assets/media/dvowels.jpg" class="img-fluid figure-img" alt="Two-part articulations of the diphthongs of English (the arrows indicate the transitions)"></a></p>
-<figcaption>Two-part articulations of the diphthongs of English (the arrows indicate the transitions)</figcaption></figure>
-</div>
-</div>
-</div>
-</div>
-<p><strong>Question 5</strong> Choose the correct item:</p>
-<ol type="1">
-<li>Which word contains a bilabial consonant? <br> coup   match   psychic   carrot</li>
-<li>Which word does not contain a voiceless sound? <br> ridge   zipper   ban   knight</li>
-<li>Which word does not have a fricative? <br> father   thing   debris   rough</li>
-<li>Which word has a high vowel?<br> cat   food   boat   red</li>
-<li>Which word has an affricate?<br> chimney   horse   parrot   loan</li>
-</ol>
-<div class="callout callout-style-default callout-tip callout-titled" title="Answer">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Answer
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li>Which word contains a bilabial consonant? <br> coup   match   psychic   carrot</li>
-<li>Which word does not contain a voiceless sound? <br> ridge   zipper   ban   knight</li>
-<li>Which word does not have a fricative? <br> father   thing   debris   rough</li>
-<li>Which word has a high vowel?<br> cat   food   boat   red</li>
-<li>Which word has an affricate?<br> chimney   horse   parrot   loan</li>
-</ol>
-</div>
-</div>
-</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>SET C</th>
+<th>KT</th>
+<th>SMT</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(32)</td>
+<td>[da.ɫ<strong>ɯ</strong>.’ve.rɛ]</td>
+<td>[da.ɫa.’ve.rɛ]</td>
+<td>‘deceit’</td>
+</tr>
+<tr class="even">
+<td>(33)</td>
+<td>[da.ɫ<strong>ɯ</strong>.’ve.re.ʒi]</td>
+<td>[da.ɫa.’ve.re.ʒi]</td>
+<td>‘traitor’</td>
+</tr>
+<tr class="odd">
+<td>(34)</td>
+<td>[’am.dʒa]</td>
+<td>[’am.dʒa]</td>
+<td>‘uncle’</td>
+</tr>
+<tr class="even">
+<td>(35)</td>
+<td>[’am.dʒa.dan]</td>
+<td>[’am.dʒa.dan]</td>
+<td>‘from the uncle’</td>
+</tr>
+<tr class="odd">
+<td>(36)</td>
+<td>[t<span class="math inline">\(^h\)</span><strong>i</strong>.’t<span class="math inline">\(^h\)</span>e.le]</td>
+<td>[t<span class="math inline">\(^h\)</span>e.’t<span class="math inline">\(^h\)</span>e.le]</td>
+<td>‘tally’</td>
+</tr>
+<tr class="even">
+<td>(37)</td>
+<td>[t<span class="math inline">\(^h\)</span><strong>i</strong>.’t<span class="math inline">\(^h\)</span>e.le.siʒ]</td>
+<td>[t<span class="math inline">\(^h\)</span>e.’t<span class="math inline">\(^h\)</span>e.le.siʒ]</td>
+<td>‘without tally’</td>
+</tr>
+<tr class="odd">
+<td>(38)</td>
+<td>[’t<span class="math inline">\(^h\)</span>ej.ʒe]</td>
+<td>[’t<span class="math inline">\(^h\)</span>ej.ʒe]</td>
+<td>‘aunt’</td>
+</tr>
+<tr class="even">
+<td>(39)</td>
+<td>[’t<span class="math inline">\(^h\)</span>ej.ʒe.dæn]</td>
+<td>[’t<span class="math inline">\(^h\)</span>ej.ʒe.dæn]</td>
+<td>‘from the aunt’</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
 
-</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -1071,61 +1205,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
-      <a href="../../sections/below/phonetics-i.html" class="pagination-link" aria-label="Phonetics I">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Phonetics I</span></span>
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../sections/above/transformations/index.html" class="pagination-link" aria-label="Transformations">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Transformations</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../sections/below/phonology.html" class="pagination-link" aria-label="Phonology I">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Phonology I</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">
 <p><a href="https://umd.instructure.com/">ELMS</a> | <a href="https://piazza.com/class/m6fjfrepp2d458">Piazza</a></p>
 </div>   
     <div class="nav-footer-center">
 <p>Handsout of <a href="https://utkuturk.com">utku turk</a></p>
-<div class="toc-actions"><ul><li><a href="https://github.com/utkuturk/ling200/edit/main/sections/below/phonetics-ii.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/utkuturk/ling200/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/utkuturk/ling200/edit/main/sections/variation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/utkuturk/ling200/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Email me any of your questions utkuturk @ umd . edu.</p>
 </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
+</footer>
+
+
 
 
 </body></html>
